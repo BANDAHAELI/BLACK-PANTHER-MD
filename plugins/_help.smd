@@ -96,11 +96,11 @@ smd({
     for (const _0x1fe062 in _0x28c18d) {
       _0x552046 += 0x1;
       if (_0x57de2c.toLowerCase() == _0x1fe062.toLowerCase()) {
-        _0x243b31 = "◢◤〘 *" + _0x1fe062.toUpperCase() + "* ⟫━━⦿\n\n";
+        _0x243b31 = "◢◤〘 *" + _0x1fe062.toUpperCase() + "* 〙◢◤\n\n";
         for (const _0x1235bb of _0x28c18d[_0x1fe062]) {
           _0x243b31 += "┃ ✗ " + fancytext(_0x1235bb, 0x1) + "\n";
         }
-        _0x243b31 += "\n┗━━━━━━━━━━━━━━⦿";
+        _0x243b31 += "\n┗━━━━━━━━━━━━━━✪";
         break;
       }
       if (_0x552046 >= 0xa) {
@@ -297,25 +297,25 @@ sᴜʜᴀɪʟ_ᴍᴅ.cmd({
       _0x2c3e5e = "┃ ❂┋";
       _0x44b88b = "█ ✪ █▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█ ✪ █";
       _0x10e1a7 = '┏〘';
-      _0x8fdfd = "〙──✫\n";
+      _0x8fdfd = "〙──✪\n";
       _0x1a5728 = " | ";
-      _0x50e224 = "\n└──────────────✼";
+      _0x50e224 = "\n└──────────────✪";
     } else if (_0x43d142 == 0x2 || Config.menu.trim().startsWith('2') || Config.menu.toLowerCase().includes("a17")) {
-      _0x2a8461 = "┌───═[ *" + Config.botname + "* ]═──✫\n│╭────────────···✫\n❂│▸";
+      _0x2a8461 = "┌───〘 *" + Config.botname + "* 〙──✪\n│╭────────────···✪\n❂│✭";
       _0x2c3e5e = "❂│✫";
-      _0x44b88b = "❂│✫\n❂╰─────────────···❂\n└───────────────···✫";
+      _0x44b88b = "❂│✫\n❂╰─────────────···❂\n└───────────────···✪";
       _0x10e1a7 = '┏〘';
-      _0x8fdfd = "〙──✼\n│╭─────────────···✫\n❂│✭";
+      _0x8fdfd = "〙──✪\n│╭─────────────···✪\n❂│✭";
       _0x1a5728 = "❂╏✫ ";
       _0x50e224 = "❂│✫\n│╰────────────···▸✫\n└───────────────···▸";
     } else {
-      _0x2a8461 = "╭────《  " + Config.botname + "  》────✼\n│ ╭──────✫❂✫──────❂";
+      _0x2a8461 = "╭────《  " + Config.botname + "  》────✪\n│ ╭──────✫❂✫──────❂";
       _0x2c3e5e = "┋ ╏";
       _0x44b88b = "│ ╰──────✬❂✬──────✬\n╰══════════════════⊷";
       _0x10e1a7 = '╭────✫';
-      _0x8fdfd = '✫';
+      _0x8fdfd = '✪';
       _0x1a5728 = '│';
-      _0x50e224 = "╰━━━━━━━━━━━━━━──✼";
+      _0x50e224 = "╰━━━━━━━━━━━━━━──✪";
     }
     const _0x376e27 = {};
     _0x4f1da9.map(async (_0x3b0442, _0x3e603e) => {
@@ -364,7 +364,7 @@ sᴜʜᴀɪʟ_ᴍᴅ.cmd({
     const {
       commands: _0x7cfe13
     } = require("../lib");
-    let _0x95885d = "\n  ╭━━〘 *" + Config.botname + "* 〙────✼     \n  ┃ ✭ Theme: " + tlang().title + "\n  ┃ ✭ Prefix: " + prefix + "\n  ┃ ✭ Owner: " + Config.ownername + "\n  ┃ ✭ Commands: " + _0x7cfe13.length + "\n  ┃ ✭ Uptime: " + runtime(process.uptime()) + "\n  ┃ ✭ Mem: " + formatp(os.totalmem() - os.freemem()) + '/' + formatp(os.totalmem()) + "\n  ╰━━━━━━━━━━━━━✫\n";
+    let _0x95885d = "\n  ╭━━〘 *" + Config.botname + "* 〙────✪     \n  ┃ ✭ Theme: " + tlang().title + "\n  ┃ ✭ Owner: " + Config.ownername + "\n  ┃ ✭ Commands: " + _0x7cfe13.length + "\n  ┃ ✭ Mem: " + formatp(os.totalmem() - os.freemem()) + '/' + formatp(os.totalmem()) + "\n  ╰━━━━━━━━━━━━━✪\n";
     for (let _0x2bd72c = 0x0; _0x2bd72c < _0x7cfe13.length; _0x2bd72c++) {
       if (_0x7cfe13[_0x2bd72c].pattern == undefined) {
         continue;
