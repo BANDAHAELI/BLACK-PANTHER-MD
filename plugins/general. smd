@@ -471,8 +471,8 @@ smd({
   try {
     let {
       data: _0x44f98c
-    } = await axios.get("https://api.github.com/repos/SuhailTechInfo/Suhail-Md");
-    let _0x1c73f9 = ("\nI'm Black-Panther-Md. A whatsApp chuddy buddy bot with rich features, Created By *" + Config.ownername + "*. 🐯\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.["stargazers_count"] || '120+') + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.["forks_count"] || "1000+") + " forks\n  *❲❒❳ Auther:* ibrahimaitech\n  *❲❒❳ Create:* " + (_0x44f98c?.['created_at'] || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/ibrahimaitech/IBRAHIM-MD_\n  *❲❒❳ Scan:* _" + scan + "_\n\n  *❲❒❳ Visit For Tutorial* _https://www.youtube.com/@ibrahimmdgpt_\n" + (Config.caption ? "\n\n" + Config.caption : '')).trim();
+    } = await axios.get("https://api.github.com/repos/ibrahimaitech/BLACK-PANTHER-MD");
+    let _0x1c73f9 = ("\nBlack panther on. The best bot that was, Created By *" + Config.ownername + "*. 🐯\n\n  *❲✪❳ Stars:* " + (_0x44f98c?.["stargazers_count"] || '120+') + " stars\n  *❲✪❳ Forks:* " + (_0x44f98c?.["forks_count"] || "1000+") + " forks\n  *❲✪❳ Auther:* ibrahimaitech\n  *❲✪❳ Create:* " + (_0x44f98c?.['created_at'] || "undefined") + "\n  *❲✪❳ Repo:* _https://github.com/ibrahimaitech/IBRAHIM-MD_\n  *❲✪❳ Scan:* _" + scan + "_\n\n  *❲✪❳ Visit For Tutorial* _https://www.youtube.com/@ibrahimmdgpt_\n" + (Config.caption ? "\n\n" + Config.caption : '')).trim();
     return await _0x45da98.sendUi(_0x45da98.jid, {
       'caption': _0x1c73f9
     });
@@ -490,7 +490,7 @@ smd({
   try {
     timestampe = speed();
     latensie = speed() - timestampe;
-    let _0x53eb40 = (" 🐯 *I am " + Config.botname + "* 🐯\n  *❲❒❳ Description:* A WhatsApp bot with rich features, Created By *" + Config.ownername + "*.\n\n  *❲❒❳ Speed:* " + latensie.toFixed(0x4) + " ms\n  *❲❒❳ Uptime:* " + runtime(process.uptime()) + "\n  *❲❒❳ Version:* " + Config.VERSION + "\n  *❲❒❳ Owner:*  " + Config.ownername + "\n\n  *❲❒❳ Support:* _" + gurl + "_ \n" + (Config.caption ? "\n\n" + Config.caption : '')).trim();
+    let _0x53eb40 = (" 🐯 *I am " + Config.botname + "* 🐯\n  *❲✪❳ Description:* Am blackpanther bot with rich features, Created By *" + Config.ownername + "*.\n\n  *❲✪❳ Speed:* " + latensie.toFixed(0x4) + " ms\n  *❲✪❳ Uptime:* " + runtime(process.uptime()) + "\n  *❲✪❳ Version:* " + Config.VERSION + "\n  *❲✪❳ Owner:*  " + Config.ownername + "\n\n  *❲✪❳ Support:* _" + gurl + "_ \n" + (Config.caption ? "\n\n" + Config.caption : '')).trim();
     return await _0x397531.bot.sendUi(_0x397531.jid, {
       'caption': _0x53eb40
     });
