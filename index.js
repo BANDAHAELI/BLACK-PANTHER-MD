@@ -1,11 +1,11 @@
-const bot = require(__dirname + '/lib/smd')
+const bot = require(__dirname + '/lib/ibrahimaitech')
 const { VERSION } = require(__dirname + '/config')
 
 const start = async () => {
-    Debug.info(`Suhail ${VERSION}`)
+    Debug.info(`BLACK-PANTHER ${VERSION}`)
   try {
     await bot.init()
-    bot.logger.info('⏳ Database syncing!')
+    bot.logger.info('⏳ Database Running!')
     await bot.DATABASE.sync()
     await bot.connect()
   } catch (error) {
